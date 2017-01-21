@@ -15,7 +15,7 @@ else: print ('success')
 @dmc.danmu
 def danmu_fn(msg):
     pp('[%s] %s' % (msg['NickName'], msg['Content']))
-    with open ('danmu.txt','a') as f:
+    with open ('data/danmu.txt','a') as f:
       #  f.write('%s [%s] %s \n' % (time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()) ,msg['NickName'], msg['Content'])
 		f.write('%s \n' %(msg['Content']))
 		
