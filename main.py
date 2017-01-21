@@ -56,7 +56,7 @@ class WordCloud_CN:
 
 if __name__ == '__main__':
     stopwords_file = u'./static/stopwords.txt'
-    text_file = u'./demo/danmu.txt'
+    text_file = u'danmu.txt'
 
     generater = WordCloud_CN(stopwords_file)
     generater.show()
